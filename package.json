@@ -1,0 +1,19 @@
+{
+  "name": "fractaltrees",
+  "version": "1.0.0",
+  "description": "H-tree fractal generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/McCauliflower/h-tree-fractal.git"
+  },
+  "author": "McCall Tucker",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/McCauliflower/h-tree-fractal/issues"
+  },
+  "homepage": "https://github.com/McCauliflower/h-tree-fractal#readme"
+}

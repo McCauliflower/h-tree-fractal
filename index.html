@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Megrim&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <canvas></canvas>
+    <button class='generate-tree-button'>Generate Random Tree</button>  
+    <script src="index.js" async defer></script>
+  </body>
+</html>
+
+<style lang="css">
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Megrim', cursive;
+}
+canvas {
+    position: absolute;
+    background: black;
+}
+button {
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+.generate-tree-button {
+    position: absolute;
+    left:0;
+    z-index: 10;
+    cursor: pointer;
+    bottom: 5%; 
+    left: 0;
+    width: 100%;
+    padding: 20px 30px;
+    background: red;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-size: 20px;
+    overflow: hidden;
+}
+</style>
